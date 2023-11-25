@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <script src="js/script.js" defer></script>
+
+    <title>Buscador de CEP</title>
+  </head>
+  <body>
+    <div class="container-cep">
+      <h2 class="title-h2">
+        <i id="icon-title" class="fa-solid fa-magnifying-glass"></i>BUSCA-CEP
+      </h2>
+      <input
+        id="txt-numer"
+        class="txt-numer"
+        type="number"
+        placeholder="Digite seu CEP"
+        pattern="/^?\d+\.?\d*$/"
+        onKeyPress="if(this.value.length==10) return false;"
+      />
+
+      <button id="btn-buscar" class="btn-buscar" onclick="buscar()">
+        Buscar Cep
+      </button>
+    </div>
+    <hr />
+    <div id="container-erro" class="container-erro">
+      <p id="txt-invalido" class="txt-invalido" hidden>
+        Não existe nenhuma rua com esse CEP
+      </p>
+      <ul
+        id="container-lista"
+        class="container-lista"
+        style="list-style: none"
+        hidden
+      >
+        <li>
+          RUA:
+          <span id="result-rua" class="result-rua"></span>
+        </li>
+        <li>
+          CIDADE:
+          <span id="result-cidade" class="result-cidade"> </span>
+        </li>
+        <li>
+          BAIRRO:
+          <span id="result-bairro" class="result-bairro"> </span>
+        </li>
+        <li>
+          CEP:
+          <span id="result-cep" class="result-cep"></span>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <footer>
+    &copy;<span class="link-footer"
+      ><a href="https://github.com/mateussilvacrs" target="_blank"
+        >Mateus Silva</a
+      ></span
+    >
+    <span>Version:</span>
+    <span>1.5</span>
+  </footer>
+</html>
