@@ -31,7 +31,7 @@ Busca-Cep é uma aplicação para quem gostaria de descobrir a rua, o bairro e a
 <div align="center">
    <img height="400px" width="900px" src="https://awesomescreenshot.s3.amazonaws.com/image/6353305/54134374-ad29ae90cbebb541c36624287a0d5b79.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250426T170343Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=81d4c2bd4522fd13a72d72b86b7594202db707d3d483080e7182806b1fc5ae3e" alt="screenshots">
 
-   <img height="400px" width="900px" src="https://awesomescreenshot.s3.amazonaws.com/image/6353305/54134407-c9b89c56fb2bbb3a33fcd7a574d625dc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250426T170750Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=267035fa86ca9d71bdf4fd6274f80a3abfae52043155ec8bd6be869bb8671d55">
+   <img height="400px" width="900px" src="https://awesomescreenshot.s3.amazonaws.com/image/6353305/54134407-c9b89c56fb2bbb3a33fcd7a574d625dc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250430%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250430T164926Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc493d5e16c643cd1bb2e62edf334ca7bbfe61345818a14f6e316f9c0f72c9c5">
 </div>
 
 ## ⚙ Funcionalidades
